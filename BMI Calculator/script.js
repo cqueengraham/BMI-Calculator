@@ -27,4 +27,4 @@ form.addEventListener('submit', function(e){
 //NaN !== NaN, use the isNaN() function
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
 
-.
+..
