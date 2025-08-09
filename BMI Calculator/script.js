@@ -6,6 +6,12 @@ form.addEventListener('submit', function(e){
     const height = parseInt(document.querySelector('#height').value);
     const weight = parseInt(document.querySelector('#weight').value);
     const results = document.querySelector('#results');
+    form.addEventListener('submit', function(e){
+    e.preventDefault();
+    
+    const height = parseInt(document.querySelector('#height').value);
+    const weight = parseInt(document.querySelector('#weight').value);
+    const results = document.querySelector('#results');
     
     if((height === '') || (height < 0) || (isNaN(height))){
         //NaN !== NaN
@@ -216,3 +222,4 @@ form.addEventListener('submit', function(e){
 ///////////////
 ///////////////////////////
 /
+
